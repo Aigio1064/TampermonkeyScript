@@ -4,6 +4,13 @@
 脚本内建议修改的地方为了方便都放在脚本最前的位置，所以你应该一眼就能看到。  
 ### 登录时间设置
 你可以看到一个名为`timeSettings`的对象，包含有`Enable`、`loginUP`和`loginOut`三个值，它们分别是 启用时间段设置、开放登录时间和断开网络时间。  
+```javascript
+const timeSettings = {
+    Enable: true,
+    loginUP: 6,
+    loginOut: 23
+};
+```
 将`Enable`改为`true`就会在 开放登录时间 到 断开网络时间 的时间内进行自动登录，改为`false`则可以在任何时间自动登录，当然! 其实并没有什么用!(因为都不限制在线时间了还要自动登录干什么(小声。  
 ### 修改匹配页面 & 页面检测
 在 ==UserScript== 注释块中，有两个`@match`段 ![==UserScript==](https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/==UserScript==.png)  
@@ -17,3 +24,10 @@ location.origin+location.pathname+"*"
 location.pathname
 ```
 来取得你的页面路径，并修改`pagePathname`对象里的`login`(登录页)和`success`(最终转跳的页面)
+```javascript
+const pagePathname = {
+    Login: "/eportal/index.jsp",
+    success: "/eportal/success.jsp"
+};
+```
+### 寻找登录按钮的唯一特征 & 修改`Element`对象
