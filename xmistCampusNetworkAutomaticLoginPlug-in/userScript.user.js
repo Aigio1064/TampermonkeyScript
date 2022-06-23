@@ -5,7 +5,7 @@
 // @description  只需要完成一次登录操作，在你下次打开登录校园网页面时，将会自动为你登录，并且在自动完成登录操作后尝试关闭页面。如果想更换校园网账户，那么请先把此脚本禁用。
 // @author       Aigio1064
 // @license      GNU General Public License v3.0
-// @updateURL    https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/userScript.user.js
+// @@downloadURL https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/userScript.user.js
 // @match        http://172.172.255.20/eportal/index.jsp*
 // @match        http://172.172.255.20/eportal/success.jsp*
 // ==/UserScript==
