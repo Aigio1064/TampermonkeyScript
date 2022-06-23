@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         厦门软件职业技术学院校园网自动登录插件
-// @namespace    http://pages.ultiaigio.top/r/javascript_file/厦门软件职业技术学院校园网自动登录.user.js
+// @namespace    https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/
 // @version      1
 // @description  只需要完成一次登录操作，在你下次打开登录校园网页面时，将会自动为你登录，并且在自动完成登录操作后尝试关闭页面。如果想更换校园网账户，那么请先把此脚本禁用。
 // @author       Aigio1064
