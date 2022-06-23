@@ -35,6 +35,7 @@ const pagePathname = {
 首先呢! 还是我们熟悉的东东`CTRL+Shift+I`，对，还是开发者工具，然后呢，有一个小小的按钮![元素选择工具](https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/scys.png)你可以叫它元素选择工具，因为它就是干这个的，然后点击它或者按`CTRL+Shift+C`用它找到那个美妙的按钮 `Tips:也有可能是丑陋的` 并且按下去  
 ![《美妙的按钮》](https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/indexDemo.png)  
 然后不出意外的话，它应该能帮你找到这个按钮元素所在的位置  
-![找到的元素](https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/zddys.png])
+![找到的元素段](https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/zddys.png)  
 但是呢，你能看到，它定位到的元素呢，并没有onClick属性，而它的父级`<a>`元素才有一个onClick属性  
-![特征选择](https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/tzxz.png)
+![特征选择](https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/tzxz.png)  
+至于这个 `document.querySelectorAll()`呢，这里有它的用法 [菜鸟教程](https://www.runoob.com/jsref/met-document-queryselectorall.html)
