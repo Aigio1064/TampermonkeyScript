@@ -29,10 +29,10 @@
     }
 	const $_COOKIE=$_TEMP1();
     if(location.pathname==pagePathname.Login){
-		setTimeout(S_LOGIN,1000);
-	}else if(location.pathname==pagePathname.success){
+	setTimeout(S_LOGIN,1000);
+    }else if(location.pathname==pagePathname.success){
         if(localStorage.getItem("Aigio1064AutoLogin")=='true'){
-			localStorage.setItem("Aigio1064AutoLogin",'false');
+	    localStorage.setItem("Aigio1064AutoLogin",'false');
             close();
         }else if(localStorage.getItem("Aigio1064AutoLogin")=='false'){
             if(confirm("检查到你已经成功自动登录过了，是否要退出此页面？")){
@@ -41,8 +41,8 @@
             }
         }
     }
-	function $_TEMP1(){let a = document.cookie.split("; ");let b = {};a.forEach((c) => {let d = c.split("=");b[d[0]] = d[1]});return b;}
-	function $_LOGIN(){
+    function $_TEMP1(){let a = document.cookie.split("; ");let b = {};a.forEach((c) => {let d = c.split("=");b[d[0]] = d[1]});return b;}
+    function $_LOGIN(){
         if($_COOKIE["EPORTAL_COOKIE_SAVEPASSWORD"]=="true"){
             if(timecheck()){
                 localStorage.setItem("Aigio1064AutoLogin",'true');
