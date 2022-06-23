@@ -10,7 +10,7 @@
 
 (function() {
     'use strict';
-    var timeSettings = {
+    const timeSettings = {
         Enadle: true,
         loginUP: 6,
         loginOut: 23
