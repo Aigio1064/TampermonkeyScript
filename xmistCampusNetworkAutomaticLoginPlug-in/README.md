@@ -54,3 +54,17 @@ const Element = {
 ```javascript
 const savePasswdCookieName = "EPORTAL_COOKIE_SAVEPASSWORD";
 ```
+
+## 更新计划
+* 计划加入  
+    + 本地长期存储 `用户名`、`密码` 以及 `运营商` 的 `localStorage` 方法。
+    + 从 `localStorage` 更新 `cookie` 值的方法。
+    + 修改一些代码的运行机制。
+* 任务计划
+    + 咕咕咕。
+
+## 更新日志
+* 1.1
+    + 测试完成后发出的第一个版本，功能简单，也好像不是很实用😇
+* Beta
+    + 测试版本，Bug超多，屎山代码，使用麻烦，时不时无法正常运行😇
