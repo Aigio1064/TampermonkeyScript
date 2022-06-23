@@ -67,7 +67,7 @@ const savePasswdCookieName = "EPORTAL_COOKIE_SAVEPASSWORD";
     + 咕咕咕。
 
 ## 更新日志
-* 1.1
+* 1.1 `2022/6/24`
     + 测试完成后发出的第一个版本，功能简单，也好像不是很实用😇
-* Beta
+* Beta `null`
     + 测试版本，Bug超多，屎山代码，使用麻烦，时不时无法正常运行😇
