@@ -11,7 +11,7 @@
 (function() {
     'use strict';
     const timeSettings = {
-        Enadle: true,
+        Enable: true,
         loginUP: 6,
         loginOut: 23
     };
@@ -57,10 +57,10 @@
         }
     };
     function timecheck() {
-        if (timeSettings.Enadle) {
+        if (timeSettings.Enable) {
             let $_TEMP2 = new Date();
             return $_TEMP2.getHours() >= timeSettings.loginUP && $_TEMP2.getHours() <= timeSettings.loginOut
-        } else if (!timeSettings.Enadle) {
+        } else if (!timeSettings.Enable) {
             console.log("没有登录时间限制。\nNo login time limit.");
             return true
         }
