@@ -67,6 +67,9 @@ const savePasswdCookieName = "EPORTAL_COOKIE_SAVEPASSWORD";
     + 咕咕咕。
 
 ## 更新日志
+* 1.2 `2022/6/24`
+    + 添加GNU公共许可证3.0
+    + 添加更新链接
 * 1.1 `2022/6/24`
     + 测试完成后发出的第一个版本，功能简单，也好像不是很实用😇
 * Beta `null`
