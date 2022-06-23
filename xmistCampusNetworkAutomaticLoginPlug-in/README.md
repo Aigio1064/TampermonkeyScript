@@ -38,4 +38,14 @@ const pagePathname = {
 ![找到的元素段](https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/zddys.png)  
 但是呢，你能看到，它定位到的元素呢，并没有onClick属性，而它的父级`<a>`元素才有一个onClick属性  
 ![特征选择](https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/tzxz.png)  
-至于这个 `document.querySelectorAll()`呢，这里有它的用法 [菜鸟教程](https://www.runoob.com/jsref/met-document-queryselectorall.html)
+至于这个 `document.querySelectorAll()`呢，这里有它的用法 [菜鸟教程](https://www.runoob.com/jsref/met-document-queryselectorall.html)  
+可以看到，我试了4种方法，至于为什么我不查找那个onClick，因为它太长了! `Tips:我不明白为什么就一个 doauthen() 就能解决的事情为什么硬要搞那么长`  
+然后为了尽可能减少代码量，所以我选择了最短的那个，虽然我也搞了挺长一个😜  
+```javascript
+const Element = {
+    loginButton:"#loginLink"
+};
+```
+按照你找到的改哦，改之前记得先试试那个onClick里的东西去掉外圈的引号能不能用喔! 别没试就改喔!  
+### 保存按钮的CookieName
+嗯...这个东西也是不确定的，不过呢
