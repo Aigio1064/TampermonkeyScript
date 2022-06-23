@@ -50,7 +50,7 @@ const Element = {
 };
 ```
 按照你找到的改哦，改之前记得先试试那个onClick里的东西去掉外圈的引号能不能用喔! 别没试就改喔!  
-### 保存按钮的CookieName
+### 保存密码按钮的CookieName
 嗯...这个东西也是不确定的，不过呢,应该有一个比较好分辨的办法。  
 ![饼干页面](https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/cookie.png)  
 因为是否保存密码这个cookie并不是很需要进行保护的，所以名字里大概率会有个`SavaPasswd`或者`SavePassword`,所以还是比较简单的，只要把名字改一下就好了  
