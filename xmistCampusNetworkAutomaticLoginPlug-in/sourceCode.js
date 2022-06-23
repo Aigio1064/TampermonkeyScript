@@ -61,6 +61,7 @@
                }
             }
         })()
-    ))
+    ));
+	document.body.appendChild(UserScript);
     // Your code here...
 })();
