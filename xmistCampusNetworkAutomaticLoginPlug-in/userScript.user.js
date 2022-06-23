@@ -15,11 +15,11 @@
 
 (function() {
     'use strict';
-	const timeSettings={
+    const timeSettings={
         Enadle:true,
-		loginUP:6,
-		loginOut:23
-	}
+	loginUP:6,
+	loginOut:23
+    }
     const pagePathname={
         Login:"/eportal/index.jsp",
         success:"/eportal/success.jsp"
