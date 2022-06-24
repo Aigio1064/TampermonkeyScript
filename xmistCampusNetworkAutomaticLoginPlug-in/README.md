@@ -16,7 +16,8 @@ const timeSettings = {
 ```
 将`Enable`改为`true`就会在 开放登录时间 到 断开网络时间 的时间内进行自动登录，改为`false`则可以在任何时间自动登录，当然! 其实并没有什么用! `Tips:因为都不限制在线时间了还要自动登录干什么(小声`  
 ### 修改匹配页面 & 页面检测
-在 ==UserScript== 注释块中，有两个`@match`段 ![==UserScript==](https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/==UserScript==.png)  
+在 ==UserScript== 注释块中，有两个`@match`段  
+![==UserScript==](https://tampermonkey.ultiaigio.top/xmistCampusNetworkAutomaticLoginPlug-in/==UserScript==.png)  
 分别改成你的只到pathname并加上通配符的注册页和登录成功后最终转跳的页面的链接，但是!我有个简单的办法帮你完成，首先按下`CTRL+Shift+I`打开开发者工具，在控制台(console)选项卡内输入
 ```javascript
 location.origin+location.pathname+"*"
